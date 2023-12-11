@@ -1,6 +1,5 @@
-# Donshi-Web Project 前端全步驟 // 記得增加 nodemon 的 dependency
-
-## step1 create gitHub(choose One)
+# Donshi-Community-Mutual-Aid-Website
+# step1 create gitHub(choose One)
 
 ### 1.GitKraken
 
@@ -289,3 +288,4 @@ import { Switch, Route, Redirect } from "react-router-dom";
         heroku create <name>
         git push heroku master
 ```
+
