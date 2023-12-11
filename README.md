@@ -1,5 +1,15 @@
 # Donshi Community Mutual Aid Website
 
+## Project Goal
+- "Breaking barriers on the foundation of inclusivity": Blurring the lines between caregivers and care recipients, the disabled, elderly, and children all live together, achieving coexistence and shared prosperity.
+
+- "Cross-domain connections": Creating relationships within the community that transcend people, resources, generations, and service recipients; in response to a declining population, singular independent professional services should be transformed into comprehensive cross-domain services.
+
+- Developing and realizing the value of every individual's life, believing that everyone can contribute, and thereby enhancing the community value recognized by local residents.
+
+## Our solution
+A project promoting community service through a time-banking system where hours spent can be exchanged for services.
+
 ## Key Features of the Website
 
 1. **Login and Registration Page**  
