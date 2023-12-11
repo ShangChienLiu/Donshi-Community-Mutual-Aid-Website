@@ -51,6 +51,7 @@ A project promoting community service through a time-banking system where hours 
 <img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_map.png" width="50%" height="50%">
 ---
 
+# Detail setup
 ## Step 1: Create GitHub Repository
 
 ### Using GitKraken
