@@ -1,0 +1,12 @@
+.pop-post-choose-content {
+  .pop-choose-child-topic {
+    flex-wrap: wrap;
+    .choose-child-container {
+      cursor: pointer;
+      border-radius: 0.625rem;
+      &:hover {
+        background-color: map-get($colors, "gray-1");
+      }
+    }
+  }
+}

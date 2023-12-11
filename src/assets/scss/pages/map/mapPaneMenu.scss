@@ -1,0 +1,79 @@
+.map {
+  .map-pane {
+    .map-pane-container {
+      .map-pane-menu {
+        .map-pane-menu-nav {
+          .pane-menu-list {
+            height: 3.5rem;
+            position: relative;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-bottom: 1px black solid;
+            border-right: 1px black solid;
+            &:last-child {
+              border-right: none;
+            }
+            &:hover {
+              background-color: map-get($colors, "gray-4");
+              transition: background-color 0.3s ease;
+              .menu-child-list {
+                display: block;
+              }
+            }
+
+            .menu-title-img {
+              width: 2rem;
+            }
+            .menu-child-list {
+              z-index: 999999;
+              display: none;
+              position: absolute;
+              top: 3.5rem;
+              left: 0;
+              width: 100%;
+              background-color: white;
+              .menu-child {
+                cursor: pointer;
+                position: relative;
+                z-index: 0;
+                border-bottom: 1px black solid;
+                transition: background-color 0.3s ease;
+                &:hover {
+                  background-color: map-get($colors, "gray-4");
+                  transition: background-color 0.3s ease;
+                }
+                .menu-child-img {
+                  width: 2rem;
+                }
+              }
+            }
+
+            .menu-child-right {
+              &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: -1px;
+                border-left: 1px solid black;
+              }
+            }
+
+            .menu-child-left {
+              &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-right: 1px solid black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

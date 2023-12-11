@@ -1,0 +1,137 @@
+@import "../../variables";
+.pop-post {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #ffffff, $alpha: 0.8);
+  z-index: 999;
+  .pop-post-container {
+    width: 30rem;
+    max-height: 40rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 2px 20px rgba(86, 86, 143, 0.3);
+    transition: all 0.3s ease;
+    .pop-post-main-content {
+      display: none;
+      overflow-y: scroll;
+      .pop-post-title-container {
+        position: relative;
+        border-bottom: 1px map-get($colors, "gray-5") solid;
+        i {
+          position: absolute;
+          top: 10%;
+          right: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 2rem;
+          height: 2rem;
+          padding: 1.3rem;
+          border-radius: 50%;
+          cursor: pointer;
+          &:hover {
+            background-color: map-get($colors, "gray-1");
+          }
+        }
+      }
+
+      .pop-post-main-content {
+      }
+    }
+
+    .pop-post-delete-edit {
+      display: none;
+      .pop-post-delete {
+        cursor: pointer;
+        border-radius: 0;
+        border-bottom: 1px black solid;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: rgba(228, 230, 235, 0.6);
+          transition: background-color 0.3s ease;
+        }
+      }
+      .pop-post-edit {
+        cursor: pointer;
+        border-radius: 0;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: rgba(228, 230, 235, 0.6);
+          transition: background-color 0.3s ease;
+        }
+      }
+    }
+
+    .pop-post-choose-content {
+      display: none;
+      .pop-choose-title {
+        position: relative;
+        border-bottom: 1px map-get($colors, "gray-5") solid;
+        i {
+          position: absolute;
+          top: 10%;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 2rem;
+          height: 2rem;
+          padding: 1.3rem;
+          border-radius: 50%;
+          cursor: pointer;
+          &:hover {
+            background-color: map-get($colors, "gray-1");
+          }
+        }
+      }
+    }
+
+    .show-child-pop {
+      display: flex;
+    }
+
+    .show-del-edit-pop {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .choose-post-position {
+    i {
+      position: absolute;
+      z-index: 1;
+      cursor: pointer;
+      width: 0.5rem;
+      height: 0.5rem;
+      top: 1%;
+      left: 0.5%;
+      cursor: pointer;
+      &:hover {
+        background-color: map-get($colors, "gray-1");
+      }
+    }
+    .choose-loc-marker {
+      position: relative;
+      &::after {
+        content: "點擊完成";
+        width: fit-content;
+        white-space: nowrap;
+        position: absolute;
+        top: -100%;
+        left: -50%;
+        background-color: white;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.show-pop-post {
+  display: flex;
+}

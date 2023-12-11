@@ -1,0 +1,11 @@
+@import "../variables";
+
+.fw-bold {
+  font-weight: bold;
+}
+
+@each $key, $var in $font-sizes {
+  .fs-#{$key} {
+    font-size: $var * $base-font-size;
+  }
+}

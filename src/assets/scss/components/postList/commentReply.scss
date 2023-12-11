@@ -1,0 +1,131 @@
+.post-comment-reply {
+  .comment-reply-container {
+    .reply-list {
+      .reply-list-container {
+        .reply-child {
+          .reply-child-self-img {
+            width: 2.8rem;
+            height: 2.8rem;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          .reply-child-container {
+            .reply-child-main {
+              position: relative;
+              .reply-child-content {
+                width: fit-content;
+                max-width: 15rem;
+                white-space: wrap;
+                border-radius: 15px;
+                .reply-text {
+                  word-wrap: break-word;
+                  word-break: break-all;
+                }
+                .edit-reply {
+                  border: 1px map-get($colors, "gray-6") solid;
+                  border-radius: 20px;
+                  .edit-reply-input {
+                    border: none;
+
+                    &::placeholder {
+                      transition: all 0.3s ease;
+                    }
+
+                    &:focus {
+                      &::placeholder {
+                        transform: translateX(15px);
+                        opacity: 0;
+                        transition: all 0.3s ease;
+                      }
+                    }
+                  }
+                  .icon-edit-reply {
+                    cursor: pointer;
+                  }
+                  .icon-close-edit {
+                    cursor: pointer;
+                  }
+                }
+              }
+
+              .reply-child-setting {
+                cursor: pointer;
+                width: 1.8rem;
+                height: 1.8rem;
+                border-radius: 50%;
+                opacity: 0;
+                transition: all 0.3s;
+
+                &:hover {
+                  transition: all 0.3s;
+                  background-color: map-get($colors, "gray-1");
+                }
+              }
+
+              &:hover {
+                .reply-child-setting {
+                  opacity: 1;
+                }
+              }
+
+              .comment-setting-choose-container {
+                position: absolute;
+                padding: 0;
+                top: 90%;
+                width: 10rem;
+                background-color: white;
+                box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.7);
+                border-radius: 0.625rem;
+                .comment-setting-choose-child {
+                  cursor: pointer;
+                  border-bottom: 1px black solid;
+                  transition: all 0.3s;
+
+                  &:hover {
+                    transition: all 0.3s;
+                    background-color: map-get($colors, "gray-1");
+                  }
+
+                  &:last-child {
+                    border: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .comment-reply {
+    .comment-reply-self-img {
+      width: 2.8rem;
+      height: 2.8rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .send-reply {
+      border-radius: 20px;
+      .comment-reply-input {
+        border: none;
+
+        &::placeholder {
+          transition: all 0.3s ease;
+        }
+
+        &:focus {
+          &::placeholder {
+            transform: translateX(15px);
+            opacity: 0;
+            transition: all 0.3s ease;
+          }
+        }
+      }
+      .icon-send-reply {
+        cursor: pointer;
+      }
+    }
+  }
+}

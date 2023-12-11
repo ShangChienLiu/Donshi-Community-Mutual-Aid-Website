@@ -1,0 +1,85 @@
+// flex
+$flex-jc: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+);
+
+$flex-ai: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    stretch: stretch,
+);
+
+// spacing
+$spacing-types: (m: margin, p: padding);
+$spacing-direction: (t: top, r: right, b: bottom, l: left);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+    0: 0,
+    1: 0.25,
+    2: 0.5,
+    25:0.8,
+    3: 1,
+    4: 1.5,
+    5: 3,
+    6: 4,
+    7: 5,
+    8: 6,
+    9: 7,
+);
+
+// colors
+$colors: (
+    primary: #F0F2F5,
+    "white": #fff,
+    "black": #000,
+    "gray": #BDBDBD,
+    "gray-1": #E4E6EB,
+    "gray-2": #C8C8C8,
+    "gray-3": #F0F2F5,
+    "gray-4": #D8DADF,
+    "gray-5": rgba(228, 230, 235,0.6),
+    "gray-6": #65676B,
+    "dark-gray": #4F4F4F,
+    "blue": #3399FF,
+    "blue-1": #1877f2,
+    "blue-2": #E7F3ff,
+    "blue-3": #66ccff,
+    "blue-4": #D3F5FF,
+    "dark-blue": #05577B,
+    "dark-blue-1":#7383BF,
+    "blue-green": #26B6C3,
+    "green": #83E6C7,
+    "green-2": #12ceab,
+    "dark-green": #00B896,
+    "pink": #EF7577,
+    "pink-1": #ff8888,
+    "red": red,
+    "yellow": #FFE344,
+    "yellow-1": #ffffcc,
+    "orange": #ff9954,
+    "purple": #cc99ff,
+    "dark-purple": #A071CB,
+    "brown": #cc9966,
+    "none": #00000000,
+);
+
+// fontSize
+$base-font-size: 1rem;
+$font-sizes: (
+    xxs: 0.8125, // 13px
+    xs: 0.875, // 14px
+    md: 1, // 16px
+    lgs: 1.125, // 18px
+    lg: 1.25, // 20px
+    xl: 1.5, // 24px
+    xlx: 1.6, // 25px
+    xxl: 1.875, // 30px
+    xxxl: 2.5, // 44px
+    xxxxl: 2.8125, // 45px
+    xxxxxl: 9.0625, // 145px
+);

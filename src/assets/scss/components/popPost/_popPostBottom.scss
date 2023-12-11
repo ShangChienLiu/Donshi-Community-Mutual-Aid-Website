@@ -1,0 +1,96 @@
+@import "../../variables";
+.pop-post-content {
+  .pop-post-bottom-content {
+    .pop-bottom-text-container {
+      // .pop-bottom-text {
+      //   min-height: 20px;
+      //   margin-left: auto;
+      //   margin-right: auto;
+      //   padding: 3px;
+      //   outline: 0;
+      //   line-height: 24px;
+      //   padding: 2px;
+      //   word-wrap: break-word;
+      //   overflow-x: hidden;
+      //   overflow-y: auto;
+      // }
+      // .pop-bottom-text:empty:before {
+      //   content: attr(data-placeholder);
+      //   color: gray;
+      // }
+      .pop-bottom-text-parent {
+        width: 100%;
+        position: relative;
+        font-size: 1.2rem;
+        .dummy {
+          padding: 5px;
+          border: 1px solid;
+          visibility: hidden;
+          white-space: pre-wrap;
+
+          &::after {
+            content: " ";
+          }
+        }
+        .pop-bottom-text {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          border: none;
+          resize: none;
+          // font: inherit;
+        }
+      }
+    }
+
+    .pop-post-choose {
+      .pop-choose-list {
+        border: 1px map-get($colors, "gray") solid;
+        border-radius: 0.625rem;
+        .pop-choose-child {
+          position: relative;
+          cursor: pointer;
+          border-bottom: 1px map-get($colors, "gray") solid;
+          z-index: 0;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.625rem;
+            background-color: transparent;
+            z-index: -1;
+          }
+          &:hover {
+            &::before {
+              background-color: map-get($colors, "gray-3");
+            }
+          }
+
+          &:last-child {
+            border-bottom: none;
+          }
+          .choose-child-icon {
+          }
+
+          .choose-child-name {
+          }
+        }
+      }
+    }
+
+    .bt-post-save {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: map-get($colors, "blue-1");
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}

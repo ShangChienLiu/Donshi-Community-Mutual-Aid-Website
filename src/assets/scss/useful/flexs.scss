@@ -1,0 +1,33 @@
+@import "../variables";
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.fl-nowrap {
+  flex-wrap: nowrap;
+}
+
+.fl-wrap {
+  flex-wrap: wrap;
+}
+
+@each $key, $var in $flex-jc {
+  .jc-#{$key} {
+    justify-content: $var;
+  }
+}
+
+@each $key, $var in $flex-ai {
+  .ai-#{$key} {
+    align-items: $var;
+  }
+}

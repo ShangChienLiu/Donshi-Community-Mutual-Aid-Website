@@ -1,0 +1,7 @@
+@import "../variables";
+
+@each $var in (left, right, center) {
+    .text-#{$var}{
+        text-align: $var;
+    }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "309628",
+      "name": "log-out",
+      "font_class": "logout",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "348683",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "eb8b",
+      "unicode_decimal": 60299
+    },
+    {
+      "icon_id": "490031",
+      "name": "dashboard",
+      "font_class": "dashboard",
+      "unicode": "eb08",
+      "unicode_decimal": 60168
+    },
+    {
+      "icon_id": "544480",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "663232",
+      "name": "search",
+      "font_class": "i-search",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "702930",
+      "name": "image",
+      "font_class": "image",
+      "unicode": "e8dc",
+      "unicode_decimal": 59612
+    },
+    {
+      "icon_id": "759749",
+      "name": "menu2",
+      "font_class": "2601caidan2",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "851475",
+      "name": "post",
+      "font_class": "post",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "887923",
+      "name": "phone",
+      "font_class": "phone1",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "929751",
+      "name": "send",
+      "font_class": "send",
+      "unicode": "e7f7",
+      "unicode_decimal": 59383
+    },
+    {
+      "icon_id": "1043918",
+      "name": "gender",
+      "font_class": "gender",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "1044480",
+      "name": "birthday",
+      "font_class": "birthday",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "1084703",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "1207843",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "1226217",
+      "name": "notification",
+      "font_class": "notification",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "1487392",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2510117",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "7239794",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "8144784",
+      "name": "arrow",
+      "font_class": "arrow",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11488063",
+      "name": "left arrow",
+      "font_class": "leftarrow",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "12310198",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e871",
+      "unicode_decimal": 59505
+    },
+    {
+      "icon_id": "13260069",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "17411765",
+      "name": "Add",
+      "font_class": "Add",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

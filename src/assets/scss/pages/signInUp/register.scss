@@ -1,0 +1,117 @@
+@import "../../variables";
+
+.register {
+  height: 100vh;
+  .register-container {
+    width: 50rem;
+    border-radius: 1.25rem;
+
+    .register-title-img {
+      width: 15rem;
+      height: 15rem;
+    }
+
+    .register-content {
+      .register-title-container {
+        .register-title-text {
+        }
+      }
+
+      .register-choose-button {
+        cursor: pointer;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        overflow: hidden;
+        .register-preview-img{
+          width: 100%;
+          height: 8rem;
+          object-fit:cover
+        }
+        .register-choose-img-icon {
+          font-size: 5rem;
+        }
+      }
+
+      .register-img-input {
+        position: fixed;
+        right: 100%;
+        bottom: 100%;
+      }
+
+      .register-step-list-container {
+        .register-step-child-container {
+          position: relative;
+          width: 80%;
+          background-color: #f0f0f0;
+          height: 3.4375rem;
+          border-radius: 3.4375rem;
+          padding: 0 0.4rem;
+          .register-step-child {
+            &:last-child {
+              margin: 0;
+            }
+            .child-icon {
+              border-right: 2px solid map-get($colors, "gray-1");
+            }
+            .child-input {
+              background: none;
+              outline: none;
+              border: none;
+              line-height: 1;
+              font-weight: 600;
+              font-size: 1.1rem;
+              color: #333;
+            }
+
+            .choose-gender-container {
+              z-index: 1;
+              position: absolute;
+              padding: 0;
+              top: 90%;
+              left: 13%;
+              width: 10rem;
+              background-color: white;
+              box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.7);
+              border-radius: 0.625rem;
+              .choose-gender-child {
+                cursor: pointer;
+                border-bottom: 1px black solid;
+                transition: all 0.3s;
+
+                &:hover {
+                  transition: all 0.3s;
+                  background-color: map-get($colors, "gray-1");
+                }
+
+                &:last-child {
+                  border: none;
+                }
+              }
+            }
+
+            .register-choose-birthday {
+              position: absolute;
+              top: 90%;
+              left: 13%;
+              width: fit-content;
+              height: fit-content;
+              background-color: #f0f0f0;
+              z-index: 1;
+            }
+          }
+        }
+      }
+
+      .bt-register-fin {
+        width: 77%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+          background-color: map-get($colors, "green-2");
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

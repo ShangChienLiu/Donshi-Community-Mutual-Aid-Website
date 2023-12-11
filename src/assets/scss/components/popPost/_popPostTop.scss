@@ -1,0 +1,33 @@
+.pop-post-content {
+  .pop-post-top-content {
+    .pop-top-self {
+      .pop-top-self-img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .pop-top-self-info {
+      }
+
+      .pop-top-choose {
+        cursor: pointer;
+        border-radius: 0.625rem;
+        &:hover {
+          background-color: map-get($colors, "gray-1");
+        }
+      }
+    }
+
+    .pop-top-title {
+      border: none;
+      outline: none;
+      border-bottom: 1px map-get($colors, "gray") solid;
+
+      &::placeholder {
+        font-weight: bold;
+      }
+    }
+  }
+}

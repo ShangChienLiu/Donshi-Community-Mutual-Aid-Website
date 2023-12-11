@@ -1,0 +1,15 @@
+.setting {
+  .setting-container {
+    border-radius: 0.625rem;
+    box-shadow: 0 1px 2px rgba(51, 51, 102, 0.4);
+    width: 55rem;
+    .setting-list {
+      .setting-item {
+        border-bottom: 1px map-get($colors, "gray") solid;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

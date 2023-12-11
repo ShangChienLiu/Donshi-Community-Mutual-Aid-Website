@@ -1,0 +1,8 @@
+.map {
+  .map-marker {
+    &:hover{
+      transform: scale(1.2);
+      // background-color: red !important;
+    }
+  }
+}

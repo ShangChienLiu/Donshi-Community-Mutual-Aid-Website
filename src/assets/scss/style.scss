@@ -1,0 +1,82 @@
+@import "./variables";
+@import "./useful/flexs.scss";
+@import "./useful/colors.scss";
+@import "./useful/fontSize.scss";
+@import "./useful/textAlign.scss";
+@import "./useful/margins.scss";
+@import "./useful//borderLeft.scss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+// components
+@import "./components/topNavigation/topNavigation.scss";
+@import "./components/leftNavigation/leftNavigation";
+@import "./components/postList/postList.scss";
+@import "./components//postList//postComment.scss";
+@import "./components/popPost/popPost.scss";
+@import "./components/popPost/popPostTop.scss";
+@import "./components/popPost/popPostBottom.scss";
+@import "./components/popPost/popChooseTopic.scss";
+@import "./components/popPost/popChooseTime.scss";
+@import "./components/popPost/popChooseImg.scss";
+@import "./components/popPost/popChooseLoc.scss";
+@import "./components/popDeleteEdit/popDeleteEdit";
+@import "./components/postList/commentReply.scss";
+@import "./components/searchPost/searchPost";
+@import "./components/notification/notification";
+
+// pages
+@import "./pages/info/info.scss";
+@import "./pages/info/infoSelfPost.scss";
+@import "./pages//profile/profile.scss";
+@import "./pages/profile/selfIntro.scss";
+@import "./pages/setting/setting.scss";
+@import "./pages/signInUp/login.scss";
+@import "./pages/signInUp/register.scss";
+@import "./pages/map/mapMarker.scss";
+@import "./pages/map/mapPane.scss";
+@import "./pages/map/mapPaneMenu.scss";
+@import "./pages/map/mapPostChild.scss";
+
+// extension
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  line-height: 1.3rem;
+  background: map-get($colors, primary);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  // cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+// other
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}

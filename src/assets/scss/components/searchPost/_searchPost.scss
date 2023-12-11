@@ -1,0 +1,21 @@
+@import "../../variables";
+.search-post {
+  .search-container {
+    // display: none;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    z-index: 100;
+    height: calc(100vh - 4rem);
+    overflow-y: scroll;
+    .search-title-container {
+      .search-close {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.search-post-none {
+  display: none;
+}

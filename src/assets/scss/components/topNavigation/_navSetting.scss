@@ -1,0 +1,158 @@
+.nav-setting-container {
+  flex: 1;
+  .self {
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 0.625rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: map-get($colors, "gray-5");
+      transition: background-color 0.3s ease;
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+
+    .self-img {
+      width: 3rem;
+      height: 3rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .self-name {
+      white-space: nowrap;
+    }
+  }
+
+  .button-list-container {
+    .bt-circle {
+      position: relative;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: map-get($colors, "gray-4");
+        transition: background-color 0.3s ease;
+      }
+
+      &:active {
+        transform: scale(0.97);
+      }
+
+      .button-choose-container {
+        position: absolute;
+        top: 120%;
+        left: -12rem;
+        width: 16rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.7);
+        border-radius: 0.625rem;
+        .button-choose-child {
+          position: relative;
+          z-index: 0;
+          border-bottom: 1px black solid;
+
+          &::before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 95%;
+            height: 85%;
+            border-radius: 0.625rem;
+            background-color: map-get($colors, "none");
+            transition: background-color 0.3s ease;
+          }
+
+          &:hover {
+            &::before {
+              background-color: map-get($colors, "gray-5");
+              transition: background-color 0.3s ease;
+            }
+          }
+
+          &:last-child {
+            border: none;
+          }
+          .choose-self-container {
+            img {
+              width: 5rem;
+            }
+          }
+
+          .choose-child-container {
+            .google-logout {
+              padding: 1rem 0 1rem 0 !important;
+              width: 100% !important;
+              font-size: 1.25rem !important;
+              box-shadow: none !important;
+              color: black !important;
+              background-color: transparent !important;
+              font-family: "Noto Sans TC", "Franklin Gothic Medium",
+                "Arial Narrow", Arial, sans-serif !important;
+              div {
+                display: none;
+              }
+              span {
+                padding: 0 !important;
+                font-weight: 400 !important;
+              }
+            }
+          }
+        }
+
+        .button-open-topic {
+          cursor: pointer;
+          background-color: map-get($colors, "green");
+          border-radius: 0.625rem;
+          &:hover {
+            background-color: map-get($colors, "gray-1");
+          }
+        }
+
+        .button-close-topic {
+          cursor: pointer;
+          background-color: map-get($colors, "gray-1");
+          border-radius: 0.625rem;
+          &:hover {
+            background-color: map-get($colors, "green");
+          }
+        }
+      }
+
+      .button-choose-type-container {
+        position: absolute;
+        top: 120%;
+        left: -8.5rem;
+        width: 16rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.7);
+        border-radius: 0.625rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .nav-setting-container {
+    flex: 1.5;
+    .self {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav-setting-container {
+    flex: 1;
+  }
+}

@@ -1,0 +1,107 @@
+@import "../../variables";
+
+.self-space {
+  position: relative;
+  .self-intro {
+    z-index: 1;
+    .self-intro-img-container {
+      .intro-img {
+        object-fit: cover;
+        width: 17rem;
+        height: 17rem;
+        border-radius: 50%;
+        border: 0.3125rem map-get($colors, "green") solid;
+      }
+
+      .self-intro-edit {
+        width: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: map-get($colors, "gray-4");
+          transition: background-color 0.3s ease;
+        }
+
+        &:active {
+          transform: scale(0.97);
+        }
+      }
+
+      .intro-set-img {
+      }
+    }
+
+    .self-intro-content {
+      // width: 45rem;
+      margin-top: 7.5rem;
+      .intro-name {
+        line-height: 2.5rem;
+      }
+      .intro-text {
+        line-height: 1.65rem;
+      }
+      .self-intro-card {
+        .self-intro-card-container {
+          .info-card-item {
+            .card-item-container {
+              width: fit-content;
+              height: 12rem;
+              border-radius: 0.625rem;
+              box-shadow: 0 0.05rem 0.3125rem rgba(51, 51, 102, 0.4);
+            }
+
+            &:first-child {
+              margin: 0 0.5rem 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .self-space-bg {
+    position: absolute;
+    height: 12.5rem;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .self-space {
+    .self-intro {
+      flex-direction: column;
+      align-items: center;
+      .self-intro-img-container {
+        margin: 0;
+      }
+
+      .self-intro-content {
+        width: 100%;
+        margin-top: 2rem;
+        align-items: center;
+        .intro-text {
+          text-align: center;
+        }
+      }
+    }
+
+    .self-space-bg {
+      height: 24rem;
+    }
+  }
+}
+
+// @media screen and (max-width: 600px) {
+//     .self-space {
+//       .self-intro {
+//         .self-intro-content {
+//           .self-intro-card {
+//             .self-intro-card-container {
+
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }

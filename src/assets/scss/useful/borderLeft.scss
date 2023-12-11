@@ -1,0 +1,7 @@
+@import "../variables";
+
+@each $key, $var in $colors {
+    .border-left-#{$key}{
+        border-left: 0.1563rem $var solid;
+    }
+}
