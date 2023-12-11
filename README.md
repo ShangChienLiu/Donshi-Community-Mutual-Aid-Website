@@ -35,7 +35,7 @@
 ![phone_navigationbar](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_navigationbar.png)
 
 4. **Personal Interface**  
-![phone_Personal_Interface](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_Personal_Interface.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_Personal_Interface.png" width="500" height="300">
 
 5. **Map**  
 ![phone_map](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_map.png)
