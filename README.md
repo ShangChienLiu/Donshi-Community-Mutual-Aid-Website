@@ -3,42 +3,42 @@
 ## Key Features of the Website
 
 1. **Login and Registration Page**  
-![loading](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading.png)
-![loading1](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading1.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading1.png" width="50%" height="50%">
 
 2. **Personal Profile Page**  
-![personal_file](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/personal_file.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/personal_file.png" width="50%" height="50%">
 
 3. **Map Display**  
-![Map](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/Map.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/Map.png" width="50%" height="50%">
 
 4. **Comments and Replies**  
-![comments](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/comments.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/comments.png" width="50%" height="50%">
 
 5. **Post Publication**  
-![post](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/post.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/post.png" width="50%" height="50%">
 
 6. **Complete Post View**  
-![complete_post](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/complete_post.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/complete_post.png" width="50%" height="50%">
 
 7. **Navigation Bar**  
-![navigation_bar](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/navigation_bar.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/navigation_bar.png" width="50%" height="50%">
 
 ### Universal Version for Android and IOS:
 1. **Information**  
-![phone_info](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_info.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_info.png" width="50%" height="50%">
 
 2. **Needs**  
-![phone_need](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_need.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_need.png" width="50%" height="50%">
 
 3. **Navigation Bar**  
-![phone_navigationbar](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_navigationbar.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_navigationbar.png" width="50%" height="50%">
 
 4. **Personal Interface**  
 <img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_Personal_Interface.png" width="50%" height="50%">
 
 5. **Map**  
-![phone_map](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_map.png)
+<img src="https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_map.png" width="50%" height="50%">
 ---
 
 ## Step 1: Create GitHub Repository
