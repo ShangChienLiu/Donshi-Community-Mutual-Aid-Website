@@ -3,42 +3,42 @@
 ## Key Features of the Website
 
 1. **Login and Registration Page**  
-   ![Login and Registration Page Image Placeholder](#)
+![loading](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading.png)
+![loading1](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/loading1.png)
 
 2. **Personal Profile Page**  
-   ![Personal Profile Page Image Placeholder](#)
+![personal_file](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/personal_file.png)
 
 3. **Map Display**  
-   ![Map Display Image Placeholder](#)
+![Map](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/Map.png)
 
 4. **Comments and Replies**  
-   ![Comments and Replies Image Placeholder](#)
+![comments](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/comments.png)
 
 5. **Post Publication**  
-   ![Post Publication Image Placeholder](#)
+![post](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/post.png)
 
 6. **Complete Post View**  
-   ![Complete Post View Image Placeholder](#)
+![complete_post](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/complete_post.png)
 
 7. **Navigation Bar**  
-   ![Navigation Bar Image Placeholder](#)
+![navigation_bar](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/navigation_bar.png)
 
 ### Universal Version for Android and IOS:
 1. **Information**  
-   ![Information Section Image Placeholder](#)
+![phone_info](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_info.png)
 
 2. **Needs**  
-   ![Needs Section Image Placeholder](#)
+![phone_need](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_need.png)
 
 3. **Navigation Bar**  
-   ![Navigation Bar Image Placeholder](#)
+![phone_navigationbar](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_navigationbar.png)
 
 4. **Personal Interface**  
-   ![Personal Interface Image Placeholder](#)
+![phone_Personal_Interface](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_Personal_Interface.png)
 
 5. **Map**  
-   ![Map Image Placeholder](#)
-
+![phone_map](https://raw.githubusercontent.com/kennysuper007/Donshi-Community-Mutual-Aid-Website/main/img/phone_map.png)
 ---
 
 ## Step 1: Create GitHub Repository
