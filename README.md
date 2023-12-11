@@ -1,189 +1,182 @@
-# Donshi-Community-Mutual-Aid-Website
-# step1 create gitHub(choose One)
+# Donshi Community Mutual Aid Website
 
-### 1.GitKraken
+## Key Features of the Website
 
-```
-Init gitHub responsity
-```
+1. **Login and Registration Page**  
+   ![Login and Registration Page Image Placeholder](#)
 
-### 2.GitHub
+2. **Personal Profile Page**  
+   ![Personal Profile Page Image Placeholder](#)
 
-```
-New responsity
-```
+3. **Map Display**  
+   ![Map Display Image Placeholder](#)
 
----
+4. **Comments and Replies**  
+   ![Comments and Replies Image Placeholder](#)
 
-## step2 create item
+5. **Post Publication**  
+   ![Post Publication Image Placeholder](#)
 
-### 1.create the folder
+6. **Complete Post View**  
+   ![Complete Post View Image Placeholder](#)
 
-```
-web:前端網頁設計
-  用途:會被瀏覽器搜尋到的頁面，手機端或電腦端
-  前置作業:
-  1. npx create-react-app {project-name}
-  2. npm install -save react-router react-router-dom sass sass-loader
-  3. 創立資料夾assets 然後assets底下創
-                image
-                scss
-  4. 創立components、pages
-```
+7. **Navigation Bar**  
+   ![Navigation Bar Image Placeholder](#)
 
----
+### Universal Version for Android and IOS:
+1. **Information**  
+   ![Information Section Image Placeholder](#)
 
-## step3 上傳 gitHub
+2. **Needs**  
+   ![Needs Section Image Placeholder](#)
 
-### 1.build 專案
+3. **Navigation Bar**  
+   ![Navigation Bar Image Placeholder](#)
 
-```
-  1.在package.json加 "homepage": "./"
-  2.在要上傳的網頁 npm run build
-  3.將build 好的的檔案 放入剛剛創建的reponsity
-  4.git add .
-    git commit -m "first commit"
-    git remote add origin https://github.com/john87413/{project-name}.git
-    git push -u origin master
-```
+4. **Personal Interface**  
+   ![Personal Interface Image Placeholder](#)
 
-### 2.設定 GitHub Page
-
-```
-    1.專案要是public
-    2.在setting 將 github page設定master branch
-```
+5. **Map**  
+   ![Map Image Placeholder](#)
 
 ---
 
-## step4 前端工具樣式
+## Step 1: Create GitHub Repository
 
-### 1.sass-loader
+### Using GitKraken
+Initialize GitHub repository
 
-```
-  1.新增一個SCSS folder生出style.scss 還有 _variables.scss
-  2.要用任何變量就可以直接這樣
-    @import '../../assets/scss/variables.scss';
-  3.在main.js improt style.scss
-    import "./assets/scss/style.scss"
-  4.記得每個樣式都要加點點!!!!!
-```
-
-### 2.樣式重製
-
-```
-  @import "./variables";
-
-  全部的元素(*)
-    1 .加個border-box
-    2. 高亮消失(outline)
-
-  html 定義
-    1.找尋出現次數最多的字體大小(font-size)
-
-  body 定義
-    1.設margin 0
-    2.設置行高
-    3.設置常用字體
-    4.可以順便設置background (看設計)
-
-  a 定義
-    1.更改默認顏色
-    2.text-decoration: none (看情況)
-
-  li 定義
-    1.取消默認點點(list-style-type)
-    2.float: left(看情況)
-    3.cursor: pointer(看情況)
-
-  button 定義
-    1.取消默認方框
-    2.border-radius: 0.5rem;(看情況)
-```
-
-### 3.定義常用 flex 工具
-
-```
-  1.定義 display
-  2.定義direction
-  3.定義flex-grow
-  4.定義出變量 jc && ai
-  5.將變量做each
-```
-
-### 4.定義常用 margin & padding
-
-```
-  1.定義出變量 type direction size base-size
-  2.size的定義就0.5加上去或更大
-  3.將變量做each 定義出 .m-1 .mx-1 .mt-1
-```
-
-### 5.定義常用 color
-
-```
-  1.定義出常用color
-  2.將變量做each
-```
-
-### 6.定義常用 font size && text align
-
-```
-  1.定義出常用font-size
-  2.將變量做each
-  3.each 出 text 的 靠左靠右或置中
-```
-
-### 7.定義額外常用樣式
-
-```
-  1.寬高 100%
-  2.flex 要不要自動換行
-  3.字體加粗
-```
+### Using GitHub
+Create a new repository
 
 ---
 
-## step5 分配 Router
+## Step 2: Create Project
 
-### 1.創建頁面
+### Create the Folder
+Web: Front-end Web Design
+Purpose: Pages accessible by browsers, for mobile or desktop
+Preparatory Steps:
+- npx create-react-app {project-name}
+- npm install -save react-router react-router-dom sass sass-loader
+- Create folder 'assets' and under 'assets' create:
+  - image
+  - scss
+- Create 'components', 'pages'
 
-1. 在 pages 底下創建頁面 並簡單寫 HTML
-   map.js
-   login.js
-   home.js
+---
 
-   - info.js
-   - need.js
-   - setting.js
-   - profile.js
+## Step 3: Upload to GitHub
 
-2. App.js 分配 主要 route
+### Build the Project
+- Add "homepage": "./" to package.json
+- Run 'npm run build' for the page to be uploaded
+- Place the built files into the newly created repository
+- Execute:
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/john87413/{project-name}.git
+git push -u origin master
 
-```javascript
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
 
-<Router>
-  <div className="app">
-    <Switch>
-      <Route path="/home" component={Home}></Route>
-      <Route path="/login" component={Login}></Route>
-      <Route path="/map" component={Map}></Route>
-      <Route path="/" render={() => <Redirect to="/home" />}></Route>
-      <Route component={() => 404} />
-    </Switch>
-  </div>
-</Router>;
-```
+### Set Up GitHub Pages
 
-3. home.js 分配嵌入 route
+---
 
-```javascript
+## Step 4: Front-end Tool Styles
+
+### Using sass-loader
+- Create a SCSS folder with style.scss and _variables.scss
+- To use any variable:
+@import '../../assets/scss/variables.scss';
+- In main.js, import style.scss:
+import "./assets/scss/style.scss"
+- Remember to add dots for each style!
+
+### Style Reset
+- @import "./variables";
+- All elements (*):
+- Add 'border-box'
+- Remove highlight (outline)
+- HTML definition:
+- Determine the most frequently used font size
+- Body definition:
+- Set margin to 0
+- Set line height
+- Set common fonts
+- Optionally set background (as per design)
+- a definition:
+- Change default color
+- Set text-decoration to none (optional)
+- li definition:
+- Remove default list-style-type
+- Optionally set float: left
+- Optionally set cursor: pointer
+- button definition:
+- Remove default box
+- Optionally set border-radius: 0.5rem;
+
+### Define Common flex Tools
+- Define display
+- Define direction
+- Define flex-grow
+- Define variables jc & ai
+- Use each to process variables
+
+### Define Common margin & padding
+- Define variables type, direction, size, base-size
+- Define size as 0.5 increments or larger
+- Use each to define .m-1, .mx-1, .mt-1
+
+### Define Common Color
+- Define common colors
+- Use each to process variables
+
+### Define Common font size & text align
+- Define common font sizes
+- Use each to process variables
+- Process text alignment (left, right, center)
+
+### Define Additional Common Styles
+- Width and height 100%
+- Flex wrap option
+- Font boldness
+
+---
+
+## Step 5: Distribute Router
+
+### Create Pages
+1. In the 'pages' directory, create pages and write basic HTML:
+ - map.js
+ - login.js
+ - home.js
+ - info.js
+ - need.js
+ - setting.js
+ - profile.js
+
+2. In App.js, distribute the main routes:
+ ```javascript
+ import {
+   BrowserRouter as Router,
+   Switch,
+   Route,
+   Redirect,
+ } from "react-router-dom";
+
+ <Router>
+   <div className="app">
+     <Switch>
+       <Route path="/home" component={Home}></Route>
+       <Route path="/login" component={Login}></Route>
+       <Route path="/map" component={Map}></Route>
+       <Route path="/" render={() => <Redirect to="/home" />}></Route>
+       <Route component={() => 404} />
+     </Switch>
+   </div>
+ </Router>;
+In home.js, distribute nested routes:
 import { Switch, Route, Redirect } from "react-router-dom";
 
 <div className="home">
@@ -196,96 +189,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
     <Route path="/home" render={() => <Redirect to="/home/info" />}></Route>
   </Switch>
 </div>;
-```
 
----
 
-## step5 阿里巴巴 iconfont (如果需要)
-
-### 1.介紹
-
-```
-1. https://www.iconfont.cn/
-2. 下載完代碼後記得去main.js import iconfont.css
-```
-
----
-
-## step6 開始製作前端介面
-
-### 1.更換 logo
-
-```
-  1.將製作好的Logo 加入public 資料夾裡
-  2.將原本的icon 程式碼換成
-    <link rel ="shortcut icon" type="image/x-icon" href="./self-logo.png">
-```
-
-<!-- ### 2.加入router
-```
-  1.vue add router
-  2.將app.vue 改成 只有 <router-view/>
-  2.創立main.vue (包含 header && routerView && footer)
-    header && footer 正常是不會變的
-  3.改router.js (自行查看)
-    主要將main 加入並添加children
-    之後視情況加入其他path
-``` -->
-
-### 3.製作 header(這邊只做 routerlink 介紹)
-
-```
-  1.先加入所需要的view(在view資料夾裡)
-  2.在router.js做path添加(看要children 還是.....)
-  3.在header 裡添加router-link
-  4.用to="/" 之類的去更換router-view
-  5.可以把title 和 menu 分開(程式碼優化)
-```
-
-### 4.製作 home 的 swiper
-
-```
-  1.npm install vue-awesome-swiper --save
-  2.import VueAwesomeSwiper from 'vue-awesome-swiper'
-    import 'swiper/dist/css/swiper.css'
-    Vue.use(VueAwesomeSwiper, /* { default global options } */)
-  3.使用
-  4.可以把swiper 和 menu 分開(程式碼優化)
-```
-
-### 5.製作 home 的 drinks
-
-```
-  1.<a> 標籤若要當成容器 可以將font-size設為0
-    就不會多出一塊
-```
-
----
-
-## Deploy
-
-### heroku
-
-```
-  1.server 端
-    1.1 mkdir server
-    1.2 npm init -y --> 初始化package.json (-y 可省略問答快速初始化)
-    1.3 創建入口index.js
-    1.4 npm install --save cors nodemon express
-    1.5 自定義scripts -->
-      "serve": "nodemon index.js",
-      "start": "nodemon index.js" (heroku用)
-    1.6 寫index.js (看一下)
-  2.前端web
-    1.1 寫vue.config.js(看一下)
-    1.2 npm run build
-  3.佈署到heroku
-    1.1 記得一定要加  "start": "nodemon index.js"
-    1.2 git init
-        git add .
-        git commit -m ""
-    1.3 heroku login
-        heroku create <name>
-        git push heroku master
-```
 
